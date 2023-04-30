@@ -90,144 +90,144 @@ def rowHasEmptySquares(row):
     return False
 
 def findEmptySquare(position):
-    foundRow = False
-    rows = position.split("/")
-    while not foundRow: #find a row with empty squares in it
-        row_num = random.randrange(0, 8) # pick the row which we change, 0-7
-        if rowHasEmptySquares(rows[row_num]):
-            break
+	foundRow = False
+	rows = position.split("/")
+	while not foundRow: #find a row with empty squares in it
+		row_num = random.randrange(0, 8) # pick the row which we change, 0-7
+		if rowHasEmptySquares(rows[row_num]):
+		    break
 	row = rows[row_num]
-    total_spaces = 0
-    for i in range(0, len(row)):
-        if row[i].isnumeric():
-            total_spaces += int(row[i])
-    rand_space = random.randrange(1, total_spaces+1) # from 1 to nth space, max n=8
-        #now that random space in the row has been chosen, find the column its in
+	total_spaces = 0
+	for i in range(0, len(row)):
+		if row[i].isnumeric():
+		    total_spaces += int(row[i])
+	rand_space = random.randrange(1, total_spaces+1) # from 1 to nth space, max n=8
+		#now that random space in the row has been chosen, find the column its in
 	col = 0
-    spaces = 0 #track how many spaces we counted along the row
-    for i in range(0, len(row)):
-        if row[i].isnumeric() and spaces+int(row[i]) < rand_space:
-            spaces += int(row[i])
-            col += int(row[i])
+	spaces = 0 #track how many spaces we counted along the row
+	for i in range(0, len(row)):
+		if row[i].isnumeric() and spaces+int(row[i]) < rand_space:
+		    spaces += int(row[i])
+		    col += int(row[i])
 		elif not row[i].isnumeric():
-            col += 1
-        elif row[i].isnumeric() and spaces+int(row[i]) >= rand_space: #found the space
-            col += (rand_space - spaces)
-            break
-    return row_num, col #row_num is 0-index of row , but col is 1-index of col
+		    col += 1
+		elif row[i].isnumeric() and spaces+int(row[i]) >= rand_space: #found the space
+		    col += (rand_space - spaces)
+		    break
+	return row_num, col #row_num is 0-index of row , but col is 1-index of col
 
 def add_piece(position, r=-1, col=-1, piece=-1): #add a piece somewhere
-    rows = position.split("/")
-    if r == -1 and col == -1:
-        r, col = findEmptySquare(position)
-        #print("r=" + str(r) + " ; col=" + str(col))
-    row = rows[r]
-    if piece == -1:
-        piece = random.randrange(2, 10) if r==0 or r==7 else random.randrange(0, 10) # must not add pawn to edge rows
+	rows = position.split("/")
+	if r == -1 and col == -1:
+		r, col = findEmptySquare(position)
+		#print("r=" + str(r) + " ; col=" + str(col))
+	row = rows[r]
+	if piece == -1:
+		piece = random.randrange(2, 10) if r==0 or r==7 else random.randrange(0, 10) # must not add pawn to edge rows
 	c = 0 #track column were at
-    for i in range(0, len(row)):
-        if row[i].isnumeric() and c+int(row[i]) < col:
-            c += int(row[i])
-        elif row[i].isnumeric() and c+int(row[i]) >= col:
-            first_num = col-c-1
-            second_num = c+int(row[i])-col
+	for i in range(0, len(row)):
+		if row[i].isnumeric() and c+int(row[i]) < col:
+		    c += int(row[i])
+		elif row[i].isnumeric() and c+int(row[i]) >= col:
+			first_num = col-c-1
+			second_num = c+int(row[i])-col
 			if first_num != 0 and second_num != 0:
-                rows[r] = row[0:i] + str(first_num) + piece_dict[piece] + str(second_num) + row[i+1:]
-            elif first_num != 0 and second_num == 0:
-                rows[r] = row[0:i] + str(first_num) + piece_dict[piece] + row[i+1:]
-            elif first_num == 0 and second_num != 0:
-                rows[r] = row[0:i] + piece_dict[piece] + str(second_num) + row[i+1:]
+			    rows[r] = row[0:i] + str(first_num) + piece_dict[piece] + str(second_num) + row[i+1:]
+			elif first_num != 0 and second_num == 0:
+			    rows[r] = row[0:i] + str(first_num) + piece_dict[piece] + row[i+1:]
+			elif first_num == 0 and second_num != 0:
+			    rows[r] = row[0:i] + piece_dict[piece] + str(second_num) + row[i+1:]
 			else: # both zero
-                rows[r] = row[0:i] + piece_dict[piece] + row[i+1:]
-            break
-        elif not row[i].isnumeric():
-            c += 1
-    return "/".join(rows)
+			    rows[r] = row[0:i] + piece_dict[piece] + row[i+1:]
+			break
+		elif not row[i].isnumeric():
+		    c += 1
+	return "/".join(rows)
 
 def findPieceSquare(position): #find a square that has a piece on it
-    foundRow = False
-    rows = position.split("/")
-    while not foundRow: #find a row with pieces in it
-        row_num = random.randrange(0, 8) # pick the row which we change, 0-7
-        if rows[row_num] != "8": #if not 8 spaces then has pieces on it
-            break
+	foundRow = False
+	rows = position.split("/")
+	while not foundRow: #find a row with pieces in it
+		row_num = random.randrange(0, 8) # pick the row which we change, 0-7
+		if rows[row_num] != "8": #if not 8 spaces then has pieces on it
+		    break
 	row = rows[row_num]
-    total_pieces = 0
-    for i in range(0, len(row)):
-        if not row[i].isnumeric():
-            total_pieces += 1
-    rand_piece = random.randrange(1, total_pieces+1) # from 1 to nth piece, max n=8
-        #now that random piece in the row has been chosen, find the column its in
+	total_pieces = 0
+	for i in range(0, len(row)):
+		if not row[i].isnumeric():
+		    total_pieces += 1
+	rand_piece = random.randrange(1, total_pieces+1) # from 1 to nth piece, max n=8
+		#now that random piece in the row has been chosen, find the column its in
 	col = 0
-    pieces = 0 #track how many pieces we counted along the row
-    p = 'X' # will be the actual class of the piece on the square (p, n, etc.)
-    for i in range(0, len(row)):
-        if not row[i].isnumeric() and pieces+1 < rand_piece:
-            pieces += 1
-            col += 1
+	pieces = 0 #track how many pieces we counted along the row
+	p = 'X' # will be the actual class of the piece on the square (p, n, etc.)
+	for i in range(0, len(row)):
+		if not row[i].isnumeric() and pieces+1 < rand_piece:
+		    pieces += 1
+		    col += 1
 		elif row[i].isnumeric():
-            col += int(row[i])
-        elif not row[i].isnumeric() and pieces+1 == rand_piece: #found the piece
-            col += 1
-            p = row[i]
-            break
-    return row_num, col, p # row_num is 0-index of row , but col is 1-index of columns
+		    col += int(row[i])
+		elif not row[i].isnumeric() and pieces+1 == rand_piece: #found the piece
+		    col += 1
+		    p = row[i]
+		    break
+	return row_num, col, p # row_num is 0-index of row , but col is 1-index of columns
 
 def remove_piece(position, r=-1, col=-1): #remove some piece (can be specified by coordinate r, col)
-    rows = position.split("/")
-    if r == -1 and col == -1:
-        r, col, p = findPieceSquare(position)
-        #if p == "k" or p == "K": #king cant be removed in theory
-        #print("r=" + str(r) + " ; col=" + str(col))
-    row = rows[r]
+	rows = position.split("/")
+	if r == -1 and col == -1:
+		r, col, p = findPieceSquare(position)
+		#if p == "k" or p == "K": #king cant be removed in theory
+		#print("r=" + str(r) + " ; col=" + str(col))
+	row = rows[r]
 	c = 0 #track column were at
-    for i in range(0, len(row)):
-        if row[i].isnumeric() and c+int(row[i]) < col:
-            c += int(row[i])
-        elif not row[i].isnumeric() and c+1 < col:
-            c += 1
+	for i in range(0, len(row)):
+		if row[i].isnumeric() and c+int(row[i]) < col:
+		    c += int(row[i])
+		elif not row[i].isnumeric() and c+1 < col:
+		    c += 1
 		elif not row[i].isnumeric() and c+1 == col:
-            if i > 0 and i < len(row)-1:
-                if row[i-1].isnumeric() and row[i+1].isnumeric():
-                    new_spaces = int(row[i-1]) + 1 + int(row[i+1])
-                    rows[r] = row[:i-1] + str(new_spaces) + row[i+2:]
-                elif row[i-1].isnumeric() and not row[i+1].isnumeric():
+			if i > 0 and i < len(row)-1:
+				if row[i-1].isnumeric() and row[i+1].isnumeric():
+					new_spaces = int(row[i-1]) + 1 + int(row[i+1])
+					rows[r] = row[:i-1] + str(new_spaces) + row[i+2:]
+				elif row[i-1].isnumeric() and not row[i+1].isnumeric():
 					new_spaces = int(row[i-1]) + 1
-                    rows[r] = row[:i-1] + str(new_spaces) + row[i+1:]
-                elif not row[i-1].isnumeric() and row[i+1].isnumeric():
-                    new_spaces = 1 + int(row[i+1])
-                    rows[r] = row[:i] + str(new_spaces) + row[i+2:]
-                else: # both not numeric
-                    rows[r] = row[:i] + str(1) + row[i+1:]
+					rows[r] = row[:i-1] + str(new_spaces) + row[i+1:]
+				elif not row[i-1].isnumeric() and row[i+1].isnumeric():
+					new_spaces = 1 + int(row[i+1])
+					rows[r] = row[:i] + str(new_spaces) + row[i+2:]
+				else: # both not numeric
+					rows[r] = row[:i] + str(1) + row[i+1:]
 			elif i == 0:
-                if row[i+1].isnumeric():
-                    new_spaces = 1 + int(row[i+1])
-                    rows[r] = str(new_spaces) + row[i+2:]
-                else:
-                    rows[r] = str(1) + row[i+1:]
+			    if row[i+1].isnumeric():
+			        new_spaces = 1 + int(row[i+1])
+			        rows[r] = str(new_spaces) + row[i+2:]
+			    else:
+			        rows[r] = str(1) + row[i+1:]
 			elif i == len(row)-1:
-                if row[i-1].isnumeric():
-                    new_spaces = int(row[i-1]) + 1
-                    rows[r] = row[:i-1] + str(new_spaces)
-                else:
-                    rows[r] = row[:i] + str(1)
-            break
-    return "/".join(rows)
+			    if row[i-1].isnumeric():
+			        new_spaces = int(row[i-1]) + 1
+			        rows[r] = row[:i-1] + str(new_spaces)
+			    else:
+			        rows[r] = row[:i] + str(1)
+			break
+	return "/".join(rows)
 
 def move_piece(position): #move a random piece somewhere
-    old_r, old_col, piece = findPieceSquare(position)
-    p = -1
-    for key, value in piece_dict.items():
-        if piece == value:
-            p = key
-            break
-	
+	old_r, old_col, piece = findPieceSquare(position)
+	p = -1
+	for key, value in piece_dict.items():
+		if piece == value:
+		    p = key
+		    break
+
 	new_r, new_col = findEmptySquare(position)
 
-    removed = remove_piece(position, r=old_r, col=old_col)
-    added = add_piece(removed, r=new_r, col=new_col, piece=p)
+	removed = remove_piece(position, r=old_r, col=old_col)
+	added = add_piece(removed, r=new_r, col=new_col, piece=p)
 
-    return added
+	return added
 
 def analyze():
 	ret_stockfish = os.system("Stockfish/src/stockfish < input_sh.txt > out_stockfish.txt")
@@ -334,16 +334,16 @@ def fuzzer(seed_position, number_required_divergences=100):
 		# and len(crash) + len(hang) < number_required_mutations
 	):
 		mutationChoice = random.randrange(0, 5)
-        if mutationChoice == 0:
-            tentative_position = change_piece(position)
-        elif mutationChoice == 1:
-            tentative_position = change_color(position)
-        elif mutationChoice == 2:
-            tentative_position = add_piece(position)
-        elif mutationChoice == 3:
-            tentative_position = remove_piece(position)
-        elif mutationChoice == 4:
-            tentative_position = move_piece(position)
+		if mutationChoice == 0:
+			tentative_position = change_piece(position)
+		elif mutationChoice == 1:
+			tentative_position = change_color(position)
+		elif mutationChoice == 2:
+			tentative_position = add_piece(position)
+		elif mutationChoice == 3:
+			tentative_position = remove_piece(position)
+		elif mutationChoice == 4:
+			tentative_position = move_piece(position)
 
 		print(tentative_position)
 		with open("input_sh.txt", "w") as input_sh: #the inputs to stockfish and halogen
@@ -386,7 +386,7 @@ def fuzzer(seed_position, number_required_divergences=100):
 
 if __name__ == "__main__":
 	#seed_start, seed_opening, seed_mid, seed_end
-	with open("seed_end.txt", "r") as seed_input:
+	with open("seed_start.txt", "r") as seed_input:
 		seed_pos = seed_input.read().rstrip()
 	num_to_find = 200
 	fuzzer(seed_pos, num_to_find)
