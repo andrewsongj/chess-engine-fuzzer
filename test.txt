@@ -1,0 +1,3 @@
+position fen rnqqqbnr/pppppppp/8/8/8/8/PPPPpPPP/RNBqKBNR b KQkq - 0 1
+go movetime 1000
+ucinewgame
