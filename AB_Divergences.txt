@@ -1,65 +1,28 @@
-rnbqkbnr/pppppppp/8/8/8/4P3/PPP1PPPP/RNBQKBNR
-r1bqkbnr/pp1ppppp/8/8/8/4P3/PPP1PP1P/RNBQKBNR
-r1bqkbnr/pp1ppppp/8/8/8/4P3/PPP2P1P/RNBQKBNR
-r1bqkbnr/pp1ppppp/8/5P2/8/4P3/PPP2P1P/RNBQKBNR
-r1bqkbnr/pp1ppppp/8/5P2/8/4P3/PP3P1P/RNBQKBNR
-r1bqkbnr/ppRppppp/8/5P2/8/4P3/PP3P1P/RNBQKB1q
-rbbqkbnr/ppRppppp/8/5P2/8/4P3/PP3P1P/RNBQKB1q
-rbbqkbnr/ppRppppp/8/5P2/8/4P2Q/PP3P1P/RNB1KB1q
-rbbqkbnr/ppRpppp1/6p1/5p2/8/4P2Q/1P3P1P/RNB1KB1q
-rbbqkbnr/ppRpppb1/6p1/5p2/8/4P2Q/1P3P1P/RNB1KB1q
-rbbqkbnr/1pRnppb1/6p1/5p2/8/4P2Q/1P3P1P/RNB1KB1q
-rbbqkbnr/1pRnppb1/6p1/5p2/8/4P2Q/qP3P1P/RNB1KB1q
-rbBqkbnr/1pRnppb1/6p1/5p2/8/4P2Q/qB3P1P/RNB1KB1q
-rbBqkbnr/1pRnppb1/6p1/5p2/8/4P2Q/qB5P/RNB1KB1q
-rbBqkbnr/1pRnppbr/6p1/5p2/8/4P2Q/qB5P/RNB1KB1q
-rbBqkbnr/1pRnppbr/6p1/5p2/8/4P3/qB5P/RNB1KB1q
-rbBqkbnr/1pRnppbr/6p1/5p2/8/4P3/qB5q/RNB1KB1q
-rbBqkbnr/BpRnppbr/6p1/5p2/8/4P3/qB5q/RNB1KB1q
-rbBqkbnr/BpRnppbr/6p1/5p2/8/4P3/qB5q/1NB1KB1q
-rbBqkbnr/BpRnppbr/6p1/8/8/4P3/qB5q/1NB1KBpq
-rbBqkbnr/BpRnppbr/6p1/8/8/4P3/qB5q/1NB1K1pq
-rbBqkbnr/BpRnppbr/6P1/8/8/4P3/qB5q/1NB1K1pq
-rbBqkbnr/BpRnppbr/8/8/8/2P1P3/qB5q/1NB1K1pq
-rbBqkbnr/BpRnppbr/2B5/8/8/2P1P3/qB5q/1N2K1pq
-rbBqkbnr/BpRnppbr/2B5/8/8/2P1Q3/qB5q/1N2K1pq
-rbBqkbnr/BpRnppbr/2B5/8/8/4Q1P1/qB5q/1N2K1pq
-rbBqkbnr/BpRnppbr/2B5/8/8/4Q1n1/qB5q/1N2K1pq
-rbBqkbnr/BpRnppbr/2B5/8/2N5/4Q1n1/qB5q/1N2K1pq
-rb1qkbnr/BpRnppbr/2B5/3B4/2N5/4Q1n1/qB5q/1N2K1pq
-rb1qkbnr/BpRnppbr/2B5/3B4/2N5/1P2Q1n1/qB5q/1N2K1pq
-rb1qkbnr/BpRnppbr/2B5/3BP3/2N5/1P2Q1n1/qB5q/1N2K1pq
-rb1qkbnr/BpRnppbr/8/3BP3/2N5/1P2Q1n1/qB5q/1N2K1pq
-rb1qkbnr/BpRnppbr/8/2NBP3/8/1P2Q1n1/qB5q/1N2K1pq
-rb1qkbnr/BpRnppbr/8/2NBP3/8/1P2Q1n1/qB5Q/1N2K1pq
-rb1qkbnr/BpRnppbr/8/2NBP3/8/1P2Q1n1/qB6/1N1QK1pq
-rb1qkbnr/BpRnppbr/8/1BNBP3/8/1P2Q1n1/q7/1N1QK1pq
-rb1qkbnr/BpRnppbr/8/1BNBP3/8/1P2Q1n1/R7/1N1QK1pq
-rb1qkbnr/BpRnppbr/8/1BNB4/8/1P2Q1n1/R7/1N1QK1pq
-rb1qkbnr/BpRnppbr/8/1BNB4/8/1P2Q1n1/R7/1N1QK1Pq
-rb1qkbn1/BpRnppbr/8/1BNB4/8/rP2Q1n1/R7/1N1QK1Pq
-rb1qkbn1/BpRnppbr/8/1BNB4/8/rP2Q1n1/n7/1N1QK1Pq
-rb1qkbn1/BpRnppbr/8/1BNB4/8/rP2Q1n1/n7/1N1QK1PQ
-rb1qkbn1/BpRnppb1/8/1BNB4/8/rP2Q1n1/n7/1N1QK1PQ
-rb1qkbn1/BpRnppbB/8/1BNB4/8/rP2Q1n1/n7/1N1QK1PQ
-rb1qkbn1/BpRnppbB/8/1BNB4/8/rP2Q1n1/8/1N1QK1PQ
-rb1qkbn1/BpRnppbB/8/1BNB4/8/rP2Q1B1/8/1N1QK1PQ
-rb1qkbn1/BpRnppb1/7B/1BNB4/8/rP2Q1B1/8/1N1QK1PQ
-rb1qkbn1/Bprnppb1/7B/1BNB4/8/rP2Q1B1/8/1N1QK1PQ
-rb1qkbn1/Bprnppb1/7B/1BNB4/8/rP2Q1B1/8/1N2K1PQ
-rb1qkbn1/Bprnppb1/7B/1BNB4/8/rPN1Q1B1/8/1N2K1PQ
-r2qkbn1/Bprnppbb/7B/1BNB4/8/rPN1Q1B1/8/1N2K1PQ
-r2qkbn1/Bprnppbb/7B/1B1B4/8/rPN1Q1B1/8/1N2K1PQ
-r2qkbn1/Bprnppbb/7B/1B1B4/8/rpN1Q1B1/8/1N2K1PQ
-r3kbn1/Bprnppbb/7B/1B1B4/8/rpN1Q1B1/8/1N2K1PQ
-r4bn1/Bprnppbb/7B/kB1B4/8/rpN1Q1B1/8/1N2K1PQ
-r4bn1/Bprnppbb/7B/kB1B4/8/rpN1Q1B1/8/1N2KBPQ
-r4bn1/rprnppbb/7B/kB1B4/8/rpN1Q1B1/8/1N2KBPQ
-r3bbn1/rprnppbb/7B/kB1B4/8/rpN1Q1B1/8/1N2KBPQ
-r3bbn1/rprnppbb/7B/kB1B4/8/rpN1Q1B1/3R4/1N2KBPQ
-r3bbn1/rprnppbb/7B/kB1B4/8/rpN1Q1B1/3r4/1N2KBPQ
-r3bbn1/rprnppbb/7B/kB1B4/8/rpN1Q1B1/3r4/1NQ1KBPQ
-r3bbn1/rp1nppbb/7B/kB1B4/8/rpN1Q1B1/3r4/1NQ1KBPQ
-r3bbn1/rp1nppbb/7B/kB1B4/8/rpN1Q1B1/3r4/1Nq1KBPQ
-r3bbn1/rp1nppbb/7B/kB1B4/8/rpN3B1/3r4/QNq1KBPQ
-r3bbn1/rp1nppbb/7B/kB1B4/8/rpN3B1/3r4/QNq1KBPB
+{'position': 'rnbqkbnr/pppppppp/8/8/8/8/QPPPPPPP/RNBQKBNR', 'div': 'AB', 'e1move': 'b1c3', 'e1score': 'cp 660', 'e1depth': 20, 'e2move': 'e2e4', 'e2score': 'cp 951', 'e2depth': 20}
+{'position': 'rnbqkbnr/pp1ppppp/8/8/6p1/8/QPPPPPPP/RNBQKBNR', 'div': 'AB', 'e1move': 'b1c3', 'e1score': 'cp 667', 'e1depth': 20, 'e2move': 'e2e4', 'e2score': 'cp 990', 'e2depth': 20}
+{'position': 'rnbqk1nr/pp1ppppp/8/8/6p1/b7/QPPPPPPP/RNBQKBNR', 'div': 'AB', 'e1move': 'a2a3', 'e1score': 'cp 811', 'e1depth': 20, 'e2move': 'b1a3', 'e2score': 'cp 1314', 'e2depth': 20}
+{'position': 'rnbqk1nr/ppbppppp/8/8/6p1/B7/QPPPPPPP/RNBQKBNR', 'div': 'AB', 'e1move': 'b1c3', 'e1score': 'cp 846', 'e1depth': 20, 'e2move': 'e2e4', 'e2score': 'cp 1312', 'e2depth': 20}
+{'position': 'r1bqk1nr/p1bppppp/8/8/6P1/B7/QPPPPPPP/RN1QKBNR', 'div': 'AB', 'e1move': 'b1c3', 'e1score': 'cp 977', 'e1depth': 20, 'e2move': 'e2e3', 'e2score': 'cp 1604', 'e2depth': 20}
+{'position': 'r1bqk1nr/p1bppppp/8/8/8/B7/QPPPPPPP/RN1QKBNR', 'div': 'AB', 'e1move': 'e2e4', 'e1score': 'cp 929', 'e1depth': 20, 'e2move': 'e2e3', 'e2score': 'cp 1480', 'e2depth': 20}
+{'position': 'r1bqk1nr/p1bppppp/8/8/8/B7/QP1PPPPP/RN1QKBNR', 'div': 'AB', 'e1move': 'g1f3', 'e1score': 'cp 894', 'e1depth': 20, 'e2move': 'e2e3', 'e2score': 'cp 1383', 'e2depth': 20}
+{'position': 'r1bqk1nr/p1bppppp/8/8/8/8/QP1PPPPP/RNBQKBNR', 'div': 'AB', 'e1move': 'g1f3', 'e1score': 'cp 846', 'e1depth': 20, 'e2move': 'd2d4', 'e2score': 'cp 1384', 'e2depth': 20}
+{'position': 'r1bqk1nr/p1bppp2/8/8/8/5B2/Qq1PPPPP/RNBQKBNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 1351', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 2544', 'e2depth': 20}
+{'position': 'r1bqk1nr/p1bp1p2/8/2P5/8/5B2/Qq1PPPPP/RNBQKBNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 1385', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 2892', 'e2depth': 20}
+{'position': 'r1bqk1nr/p1bp1p2/8/8/8/8/QqPPPPP1/RNBQKBNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 740', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 1226', 'e2depth': 20}
+{'position': 'r1bqk1nr/p1bp1p2/8/8/8/P7/QqPP1PP1/RNBQKBNR', 'div': 'AB', 'e1move': 'c1b2', 'e1score': 'cp 628', 'e1depth': 20, 'e2move': 'a2b2', 'e2score': 'cp 1233', 'e2depth': 20}
+{'position': 'r1bqk1nr/2bp1p2/8/8/8/P7/QqPP1PP1/RNBQKBNR', 'div': 'AB', 'e1move': 'd1e2', 'e1score': 'cp 633', 'e1depth': 20, 'e2move': 'a2b2', 'e2score': 'cp 1229', 'e2depth': 20}
+{'position': 'r1bqk1nr/2bp1p2/4n3/6b1/8/P7/QqPP1PP1/RNBQKBNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp -267', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp -210', 'e2depth': 20}
+{'position': 'r1bqk1nr/2Bp1p2/4n3/8/8/P7/QqPP1PP1/RNBQKBNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 1324', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 2303', 'e2depth': 20}
+{'position': 'r1bqk1nr/2Bp1p2/4n3/8/P7/P7/Qq1P1P2/RNBQKBNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 1259', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 2202', 'e2depth': 20}
+{'position': 'r1bqk1nr/2Bp1p2/4n3/8/P7/P7/Qq1P1P2/RNBQKbNR', 'div': 'AB', 'e1move': 'h1h8', 'e1score': 'cp 458', 'e1depth': 20, 'e2move': 'a2b2', 'e2score': 'cp 776', 'e2depth': 20}
+{'position': 'r1bqk1nr/2Bp4/4n3/8/P7/P7/Qq3P2/RNBQKbNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 952', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 1599', 'e2depth': 20}
+{'position': 'r1bqk1nr/2Bp4/4n3/8/P7/N7/Qq3P2/RNBQKbNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 1089', 'e1depth': 20, 'e2move': 'a2e6', 'e2score': 'cp 2111', 'e2depth': 20}
+{'position': 'r1bqk1nr/2Bp4/4n3/8/P7/N7/Qq3P2/RnBQKbNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 736', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 1298', 'e2depth': 20}
+{'position': 'r1bqk1nr/2Bp4/4n3/8/p7/N7/Qq3P2/RnBQKbNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 598', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 1225', 'e2depth': 20}
+{'position': '2bqk1nr/2Bp4/4n3/8/p7/N7/Qq3P2/RnBQKbNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 875', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 2086', 'e2depth': 20}
+{'position': '2bqk1nr/2Bp4/4n3/8/P7/N7/Qq3P2/RnBQKbNR', 'div': 'AB', 'e1move': 'a2b2', 'e1score': 'cp 956', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 2212', 'e2depth': 20}
+{'position': '2bqk1nr/2Bp4/8/8/P7/N7/Qq3P2/RnBQKbNR', 'div': 'AB', 'e1move': 'd1h5', 'e1score': 'mate 10', 'e1depth': 20, 'e2move': 'c1b2', 'e2score': 'cp 4390', 'e2depth': 20}
+{'position': '2bqk1nR/2Bp4/8/8/P7/N7/Qq3P2/RnBQKbNR', 'div': 'AB', 'e1move': 'h8g8', 'e1score': 'mate 2', 'e1depth': 20, 'e2move': 'a2g8', 'e2score': 'mate 2', 'e2depth': 20}
+{'position': '2bqk1nR/2Bp4/8/8/P4p2/N7/Qq3P2/RnBQKbNR', 'div': 'AB', 'e1move': 'h8g8', 'e1score': 'mate 2', 'e1depth': 20, 'e2move': 'a2g8', 'e2score': 'mate 2', 'e2depth': 20}
+{'position': '2bnk1nR/b1Bp4/8/R7/p4p2/N7/Qq2B1B1/RnbQK1NR', 'div': 'AB', 'e1move': 'h8g8', 'e1score': 'mate 2', 'e1depth': 20, 'e2move': 'a2g8', 'e2score': 'mate 2', 'e2depth': 20}
+{'position': '2bnk1nR/b1Bp4/8/R7/p7/N7/Qq2B1B1/RnbQK1NR', 'div': 'AB', 'e1move': 'h8g8', 'e1score': 'mate 2', 'e1depth': 20, 'e2move': 'a2g8', 'e2score': 'mate 2', 'e2depth': 20}
