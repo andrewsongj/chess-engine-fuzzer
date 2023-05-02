@@ -410,7 +410,7 @@ def fuzzer(seed_position, number_required_divergences=100):
 
 if __name__ == "__main__":
 	#seed_start, seed_opening, seed_mid, seed_end
-	with open("seed_start.txt", "r") as seed_input:
+	with open("seed_mid.txt", "r") as seed_input:
 		seed_pos = seed_input.read().rstrip()
-	num_to_find = 200
+	num_to_find = 100
 	fuzzer(seed_pos, num_to_find)

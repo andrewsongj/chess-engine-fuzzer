@@ -1,22 +1,22 @@
 Halogen 11.4.1 x64 POPCNT
-info depth 1 seldepth 3 score cp 1894 time 0 nodes 121 nps 121000 hashfull 0 tbhits 0 pv h8g8 e8e7 
-info depth 2 seldepth 3 score mate 2 time 0 nodes 294 nps 294000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 3 seldepth 3 score mate 2 time 0 nodes 382 nps 382000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 4 seldepth 3 score mate 2 time 0 nodes 502 nps 502000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 5 seldepth 3 score mate 2 time 0 nodes 641 nps 641000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 6 seldepth 3 score mate 2 time 1 nodes 834 nps 834000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 7 seldepth 3 score mate 2 time 1 nodes 1062 nps 1062000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 8 seldepth 3 score mate 2 time 1 nodes 1302 nps 1302000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 9 seldepth 3 score mate 2 time 1 nodes 1510 nps 1510000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 10 seldepth 4 score mate 2 time 1 nodes 1735 nps 1735000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 11 seldepth 4 score mate 2 time 1 nodes 1992 nps 1992000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 12 seldepth 4 score mate 2 time 1 nodes 2263 nps 2263000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 13 seldepth 12 score mate 2 time 1 nodes 3036 nps 3036000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 14 seldepth 4 score mate 2 time 1 nodes 3412 nps 3412000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 15 seldepth 4 score mate 2 time 1 nodes 3828 nps 3828000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 16 seldepth 4 score mate 2 time 2 nodes 4307 nps 2153000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 17 seldepth 4 score mate 2 time 2 nodes 4936 nps 2468000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 18 seldepth 4 score mate 2 time 2 nodes 5683 nps 2841000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 19 seldepth 4 score mate 2 time 2 nodes 6583 nps 3291000 hashfull 0 tbhits 0 pv h8g8 e8e7 c7d8 
-info depth 20 seldepth 2 score mate 2 time 0 nodes 49 nps 49000 hashfull 0 tbhits 0 pv 
-bestmove h8g8
+info depth 1 seldepth 2 score cp -2252 time 1 nodes 48 nps 48000 hashfull 0 tbhits 0 pv d2b1 
+info depth 2 seldepth 2 score mate -1 time 1 nodes 122 nps 122000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 3 seldepth 2 score mate -1 time 1 nodes 156 nps 156000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 4 seldepth 2 score mate -1 time 1 nodes 201 nps 201000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 5 seldepth 2 score mate -1 time 1 nodes 254 nps 254000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 6 seldepth 2 score mate -1 time 1 nodes 316 nps 316000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 7 seldepth 2 score mate -1 time 1 nodes 388 nps 388000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 8 seldepth 2 score mate -1 time 1 nodes 451 nps 451000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 9 seldepth 2 score mate -1 time 1 nodes 507 nps 507000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 10 seldepth 3 score mate -1 time 1 nodes 571 nps 571000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 11 seldepth 3 score mate -1 time 1 nodes 635 nps 635000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 12 seldepth 3 score mate -1 time 1 nodes 699 nps 699000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 13 seldepth 3 score mate -1 time 1 nodes 775 nps 775000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 14 seldepth 3 score mate -1 time 1 nodes 857 nps 857000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 15 seldepth 3 score mate -1 time 1 nodes 955 nps 955000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 16 seldepth 3 score mate -1 time 1 nodes 1069 nps 1069000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 17 seldepth 3 score mate -1 time 1 nodes 1205 nps 1205000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 18 seldepth 3 score mate -1 time 1 nodes 1357 nps 1357000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 19 seldepth 3 score mate -1 time 2 nodes 1543 nps 771000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+info depth 20 seldepth 3 score mate -1 time 2 nodes 1715 nps 857000 hashfull 0 tbhits 0 pv d2b1 h2h1q 
+bestmove d2b1

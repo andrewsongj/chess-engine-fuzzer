@@ -1,23 +1,23 @@
 Stockfish dev-20230425-41f50b2c by the Stockfish developers (see AUTHORS file)
 info string NNUE evaluation using nn-e1fb1ade4432.nnue enabled
-info depth 1 seldepth 1 multipv 1 score mate 2 nodes 186 nps 186000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7
-info depth 2 seldepth 2 multipv 1 score mate 2 nodes 271 nps 271000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 3 seldepth 3 multipv 1 score mate 2 nodes 352 nps 352000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 4 seldepth 4 multipv 1 score mate 2 nodes 433 nps 433000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 5 seldepth 4 multipv 1 score mate 2 nodes 514 nps 514000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 6 seldepth 4 multipv 1 score mate 2 nodes 595 nps 595000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 7 seldepth 4 multipv 1 score mate 2 nodes 676 nps 676000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 8 seldepth 4 multipv 1 score mate 2 nodes 757 nps 757000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 9 seldepth 4 multipv 1 score mate 2 nodes 838 nps 838000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 10 seldepth 4 multipv 1 score mate 2 nodes 981 nps 981000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 11 seldepth 4 multipv 1 score mate 2 nodes 1062 nps 1062000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 12 seldepth 4 multipv 1 score mate 2 nodes 1197 nps 1197000 hashfull 0 tbhits 0 time 1 pv h8g8 e8e7 c7d8
-info depth 13 seldepth 4 multipv 1 score mate 2 nodes 1458 nps 729000 hashfull 0 tbhits 0 time 2 pv h8g8 e8e7 c7d8
-info depth 14 seldepth 4 multipv 1 score mate 2 nodes 1539 nps 769500 hashfull 0 tbhits 0 time 2 pv h8g8 e8e7 c7d8
-info depth 15 seldepth 4 multipv 1 score mate 2 nodes 1798 nps 899000 hashfull 0 tbhits 0 time 2 pv h8g8 e8e7 c7d8
-info depth 16 seldepth 4 multipv 1 score mate 2 nodes 1879 nps 939500 hashfull 0 tbhits 0 time 2 pv h8g8 e8e7 c7d8
-info depth 17 seldepth 4 multipv 1 score mate 2 nodes 1960 nps 980000 hashfull 0 tbhits 0 time 2 pv h8g8 e8e7 c7d8
-info depth 18 seldepth 4 multipv 1 score mate 2 nodes 2041 nps 1020500 hashfull 0 tbhits 0 time 2 pv h8g8 e8e7 c7d8
-info depth 19 seldepth 4 multipv 1 score mate 2 nodes 2122 nps 1061000 hashfull 0 tbhits 0 time 2 pv h8g8 e8e7 c7d8
-info depth 20 seldepth 4 multipv 1 score mate 2 nodes 2203 nps 1101500 hashfull 0 tbhits 0 time 2 pv h8g8 e8e7 c7d8
-bestmove h8g8 ponder e8e7
+info depth 1 seldepth 1 multipv 1 score mate -1 nodes 36 nps 18000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 2 seldepth 2 multipv 1 score mate -1 nodes 38 nps 19000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 3 seldepth 3 multipv 1 score mate -1 nodes 40 nps 20000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 4 seldepth 3 multipv 1 score mate -1 nodes 42 nps 21000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 5 seldepth 3 multipv 1 score mate -1 nodes 44 nps 22000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 6 seldepth 3 multipv 1 score mate -1 nodes 46 nps 23000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 7 seldepth 3 multipv 1 score mate -1 nodes 48 nps 24000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 8 seldepth 3 multipv 1 score mate -1 nodes 50 nps 25000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 9 seldepth 3 multipv 1 score mate -1 nodes 52 nps 26000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 10 seldepth 3 multipv 1 score mate -1 nodes 54 nps 27000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 11 seldepth 3 multipv 1 score mate -1 nodes 56 nps 28000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 12 seldepth 3 multipv 1 score mate -1 nodes 58 nps 29000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 13 seldepth 3 multipv 1 score mate -1 nodes 60 nps 30000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 14 seldepth 3 multipv 1 score mate -1 nodes 62 nps 31000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 15 seldepth 3 multipv 1 score mate -1 nodes 64 nps 32000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 16 seldepth 3 multipv 1 score mate -1 nodes 66 nps 33000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 17 seldepth 3 multipv 1 score mate -1 nodes 68 nps 34000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 18 seldepth 3 multipv 1 score mate -1 nodes 70 nps 35000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 19 seldepth 3 multipv 1 score mate -1 nodes 72 nps 36000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+info depth 20 seldepth 3 multipv 1 score mate -1 nodes 74 nps 37000 hashfull 0 tbhits 0 time 2 pv d2b1 a1b1
+bestmove d2b1 ponder a1b1
